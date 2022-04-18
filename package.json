@@ -4,7 +4,7 @@
   "license": "UNLICENSED",
   "description": "",
   "keywords": [],
-  "homepage": "http://selena-groh.github.io/spelling-bee",
+  "homepage": "http://selena-groh.github.io/guess-who-stardew",
   "main": "src/index.js",
   "dependencies": {
     "classnames": "2.3.1",
