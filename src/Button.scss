@@ -1,0 +1,19 @@
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  min-width: 5.5em;
+  min-height: 3em;
+  background-color: white;
+  font-size: 1em;
+  color: #333;
+  border: 1px solid #dcdcdc;
+  border-radius: 2.5em;
+  letter-spacing: 0.01em;
+  user-select: none;
+  cursor: pointer;
+  &:active {
+    background-color: #ededed;
+  }
+}

@@ -1,0 +1,10 @@
+.App {
+  padding: 32px 16px;
+  &-title {
+    font-weight: 100;
+    font-size: 3em;
+  }
+  &-title, &-subtitle {
+    text-align: center;
+  }  
+}
