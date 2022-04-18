@@ -3,8 +3,9 @@ import cx from "classnames";
 import { ELIMINATED } from "./utils";
 
 const PersonCard = ({ person, onClick }) => {
+  const Element = onClick ? "button" : "div";
   return (
-    <button
+    <Element
       className={cx("PersonCard", {
         "PersonCard--eliminated": person?.status === ELIMINATED
       })}
@@ -12,7 +13,7 @@ const PersonCard = ({ person, onClick }) => {
     >
       <img alt="" src={person?.imgSrc} width="116px" height="116px" />
       <p className="PersonCard-name">{person?.name}</p>
-    </button>
+    </Element>
   );
 };
 

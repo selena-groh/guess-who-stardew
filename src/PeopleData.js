@@ -46,6 +46,13 @@ import Vincent from "./assets/characterPortraits/Vincent.png";
 import Willy from "./assets/characterPortraits/Willy.png";
 import Wizard from "./assets/characterPortraits/Wizard.png";
 
+import QuestionMark from "./assets/Questionmark.png";
+
+export const choosingPerson = {
+  name: "Choosing Person",
+  imgSrc: QuestionMark
+};
+
 export const initialPeopleData = [
   { name: "Abigail", imgSrc: Abigail, status: POSSIBLE },
   { name: "Alex", imgSrc: Alex, status: POSSIBLE },

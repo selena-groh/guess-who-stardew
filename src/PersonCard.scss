@@ -1,13 +1,8 @@
 .PersonCard {
-  cursor: pointer;
   padding: 8px 4px;
   border: 1px solid gray;
   transition: transform 100ms, background-color 100ms;
   width: 124px;
-
-  &:active {
-    transform: scale(0.9);
-  }
   &-name {
     padding-top: 8px;
     overflow-wrap: anywhere;
@@ -15,5 +10,12 @@
   &--eliminated {
     background-color: lightgray;
     filter: brightness(0.7);
+  }
+}
+ 
+button.PersonCard {
+  cursor: pointer;
+  &:active {
+    transform: scale(0.9);
   }
 }
