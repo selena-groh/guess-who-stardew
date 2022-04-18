@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/guess-who-stardew/static/css/main.23c5ba54.chunk.css",
-    "main.js": "/guess-who-stardew/static/js/main.5974d00d.chunk.js",
-    "main.js.map": "/guess-who-stardew/static/js/main.5974d00d.chunk.js.map",
+    "main.css": "/guess-who-stardew/static/css/main.df4040b8.chunk.css",
+    "main.js": "/guess-who-stardew/static/js/main.9755467a.chunk.js",
+    "main.js.map": "/guess-who-stardew/static/js/main.9755467a.chunk.js.map",
     "runtime-main.js": "/guess-who-stardew/static/js/runtime-main.022b4e21.js",
     "runtime-main.js.map": "/guess-who-stardew/static/js/runtime-main.022b4e21.js.map",
-    "static/js/2.d8cdb437.chunk.js": "/guess-who-stardew/static/js/2.d8cdb437.chunk.js",
-    "static/js/2.d8cdb437.chunk.js.map": "/guess-who-stardew/static/js/2.d8cdb437.chunk.js.map",
+    "static/js/2.ef5a5b0c.chunk.js": "/guess-who-stardew/static/js/2.ef5a5b0c.chunk.js",
+    "static/js/2.ef5a5b0c.chunk.js.map": "/guess-who-stardew/static/js/2.ef5a5b0c.chunk.js.map",
     "index.html": "/guess-who-stardew/index.html",
-    "static/css/main.23c5ba54.chunk.css.map": "/guess-who-stardew/static/css/main.23c5ba54.chunk.css.map",
-    "static/js/2.d8cdb437.chunk.js.LICENSE.txt": "/guess-who-stardew/static/js/2.d8cdb437.chunk.js.LICENSE.txt"
+    "static/css/main.df4040b8.chunk.css.map": "/guess-who-stardew/static/css/main.df4040b8.chunk.css.map",
+    "static/js/2.ef5a5b0c.chunk.js.LICENSE.txt": "/guess-who-stardew/static/js/2.ef5a5b0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.022b4e21.js",
-    "static/js/2.d8cdb437.chunk.js",
-    "static/css/main.23c5ba54.chunk.css",
-    "static/js/main.5974d00d.chunk.js"
+    "static/js/2.ef5a5b0c.chunk.js",
+    "static/css/main.df4040b8.chunk.css",
+    "static/js/main.9755467a.chunk.js"
   ]
 }
