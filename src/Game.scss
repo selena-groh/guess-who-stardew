@@ -19,6 +19,12 @@
     text-align: center;
     margin-bottom: 16px;
   }
+  &-yourPerson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 213px;
+  }
   &-board {
     grid-area: board;
     display: flex;
@@ -28,7 +34,7 @@
     margin: auto;
   }
   &-actions {
-    margin: 32px 0;
+    margin: 16px 0 32px 0;
     display: flex;
     flex-direction: column;
     grid-gap: 8px;

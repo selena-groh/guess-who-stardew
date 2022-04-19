@@ -15,10 +15,10 @@ const Game = () => {
     setChosenPerson(generateRandomFromArray(initialPeopleData));
   }, []);
 
-  const toggleStatus = (personToEliminate) =>
+  const toggleStatus = (personToToggle) =>
     setBoard(
       board.map((person) =>
-        person.name === personToEliminate.name
+        person.name === personToToggle.name
           ? {
               ...person,
               status: person.status === POSSIBLE ? ELIMINATED : POSSIBLE
@@ -33,12 +33,14 @@ const Game = () => {
   return (
     <div className="Game">
       <div className="Game-sidebar">
-        <h2>Your Person</h2>
-        {isChoosingPerson ? (
-          <PersonCard person={choosingPerson} />
-        ) : (
-          <PersonCard person={chosenPerson} />
-        )}
+        <div className="Game-yourPerson">
+          <h2>Your Person</h2>
+          {isChoosingPerson ? (
+            <PersonCard person={choosingPerson} />
+          ) : (
+            <PersonCard person={chosenPerson} />
+          )}
+        </div>
         <div className="Game-actions">
           <Button onClick={() => setIsChoosingPerson(true)}>
             Choose Person
@@ -50,7 +52,14 @@ const Game = () => {
           >
             Randomize Person
           </Button>
-          <Button onClick={() => setBoard(initialPeopleData)}>Clear</Button>
+          <Button
+            onClick={() => {
+              setBoard(initialPeopleData);
+              setIsChoosingPerson(true);
+            }}
+          >
+            Clear
+          </Button>
         </div>
         <p>
           Possibilities Remaining:
